@@ -1,0 +1,499 @@
+2021-06-21 18:22:10,198 | 6254 |  main |  INFO | 2588|31726.0 | dip2 | [LONG] OFFSET RANGE ESTABLISHED | base target:31713.0 | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:22:10,198 | 6254 |  main |  INFO | 2588|31726.0 | dip3 | [LONG] OFFSET RANGE ESTABLISHED | base target:31703.0 | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:22:10,200 | 6254 |  main |  INFO | 2594|31707.5 | dip2 | [LONG] TRAILING ENTRY INITIATED | te target:31719.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:10,203 | 6254 |  main |  INFO | 2596|31741.5 | dip2 | [LONG] TRAILING ENTRY TRIGGERED | target price: 31741.5 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:10,205 | 6254 |  main |  INFO | 2596|31741.5 | dip2.1 | [LONG] OPENING BUY PLACED | target price: 31701.5 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:10,205 | 6254 |  main |  INFO | 2596|31741.5 | dip2.2 | [LONG] OPENING BUY PLACED | target price: 31651.5 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:10,205 | 6254 |  main |  INFO | 2596|31741.5 | dip2.3 | [LONG] OPENING BUY PLACED | target price: 31521.5 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:10,205 | 6254 |  main |  INFO | 2596|31741.5 | dip2.4 | [LONG] OPENING BUY PLACED | target price: 31281.5 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:10,205 | 6254 |  main |  INFO | 2598|31702.0 | dip3 | [LONG] TRAILING ENTRY INITIATED | te target:31724.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:10,206 | 6254 |  main |  INFO | 2599|31695.5 | dip2.1 | [LONG] OPENING BUY FILLED | fill price: 31695.5 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:10,207 | 6254 |  main |  INFO | 2599|31695.5 | dip3 | [LONG] NEW TRAILING ENTRY TARGET | te target:31717.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:10,208 | 6254 |  main |  INFO | 2604|31718.0 | dip3 | [LONG] TRAILING ENTRY TRIGGERED | target price: 31718.0 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:10,304 | 6254 |  main |  INFO | 2815|31649.5 | dip2.2 | [LONG] OPENING BUY FILLED | fill price: 31649.5 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:10,363 | 6254 |  main |  INFO | 2947|31520.5 | dip2.3 | [LONG] OPENING BUY FILLED | fill price: 31520.5 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:10,454 | 6254 |  main |  INFO | 3146|31306.0 | dip2.4 | [LONG] OPENING BUY FILLED | fill price: 31306.0 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:11,144 | 6254 |  main |  INFO | 4688|32950.0 | dip2 | [LONG] CLOSING SELL PLACED | target price: 33000.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:11,144 | 6254 |  main |  INFO | 4688|32950.0 | dip3 | [LONG] CLOSING SELL PLACED | target price: 33000.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:11,145 | 6254 |  main |  INFO | 4688|32950.0 | dip2.1 | [LONG] CLOSING SELL PLACED | target price: 32958.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:11,145 | 6254 |  main |  INFO | 4688|32950.0 | dip2.2 | [LONG] CLOSING SELL PLACED | target price: 32959.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:11,145 | 6254 |  main |  INFO | 4688|32950.0 | dip2.3 | [LONG] CLOSING SELL PLACED | target price: 33302.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:11,145 | 6254 |  main |  INFO | 4688|32950.0 | dip2.4 | [LONG] CLOSING SELL PLACED | target price: 33732.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:11,154 | 6254 |  main |  INFO | 4709|32997.0 | dip2.1 | [LONG] CLOSING SELL FILLED | fill price: 32958.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:11,155 | 6254 |  main |  INFO | 4709|32997.0 | dip2.1 | [LONG] OPENING BUY PLACED | target price: 32957.0 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:11,155 | 6254 |  main |  INFO | 4710|32996.0 | dip2.2 | [LONG] CLOSING SELL FILLED | fill price: 32959.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:11,155 | 6254 |  main |  INFO | 4710|32996.0 | dip2.2 | [LONG] OPENING BUY PLACED | target price: 32906.0 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:11,155 | 6254 |  main |  INFO | 4711|32953.0 | dip2.1 | [LONG] OPENING BUY FILLED | fill price: 32953.0 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:11,156 | 6254 |  main |  INFO | 4711|32953.0 | dip2.1 | [LONG] CLOSING SELL PLACED | target price: 32961.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:11,158 | 6254 |  main |  INFO | 4716|32873.5 | dip2.2 | [LONG] OPENING BUY FILLED | fill price: 32873.5 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:11,158 | 6254 |  main |  INFO | 4716|32873.5 | dip2.2 | [LONG] CLOSING SELL PLACED | target price: 32882.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:11,158 | 6254 |  main |  INFO | 4717|33012.0 | dip2 | [LONG] CLOSING SELL FILLED | fill price: 33000.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:11,158 | 6254 |  main |  INFO | 4717|33012.0 | dip2.1 | [LONG] CLOSING SELL FILLED | fill price: 32961.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:11,159 | 6254 |  main |  INFO | 4718|33017.5 | dip3 | [LONG] CLOSING SELL FILLED | fill price: 33000.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:11,159 | 6254 |  main |  INFO | 4718|33017.5 | dip2.2 | [LONG] CLOSING SELL FILLED | fill price: 32882.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:11,165 | 6254 |  main |  INFO | 4732|33319.0 | dip2.3 | [LONG] CLOSING SELL FILLED | fill price: 33302.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:11,185 | 6254 |  main |  INFO | 4767|33774.0 | dip2.4 | [LONG] CLOSING SELL FILLED | fill price: 33732.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:12,672 | 6254 |  main |  INFO | 8108|32407.0 | dip2 | [LONG] OFFSET RANGE ESTABLISHED | base target:32394.0 | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:22:12,675 | 6254 |  main |  INFO | 8116|32389.0 | dip2 | [LONG] TRAILING ENTRY INITIATED | te target:32401.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:12,676 | 6254 |  main |  INFO | 8118|32377.5 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:32389.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:12,676 | 6254 |  main |  INFO | 8119|32349.0 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:32361.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:12,677 | 6254 |  main |  INFO | 8120|32339.0 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:32351.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:12,677 | 6254 |  main |  INFO | 8121|32318.5 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:32330.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:12,678 | 6254 |  main |  INFO | 8122|32300.5 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:32312.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:12,679 | 6254 |  main |  INFO | 8123|32294.0 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:32306.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:12,679 | 6254 |  main |  INFO | 8125|32334.5 | dip2 | [LONG] TRAILING ENTRY TRIGGERED | target price: 32334.5 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:12,679 | 6254 |  main |  INFO | 8125|32334.5 | dip2.1 | [LONG] OPENING BUY PLACED | target price: 32294.5 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:12,679 | 6254 |  main |  INFO | 8125|32334.5 | dip2.2 | [LONG] OPENING BUY PLACED | target price: 32244.5 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:12,680 | 6254 |  main |  INFO | 8125|32334.5 | dip2.3 | [LONG] OPENING BUY PLACED | target price: 32114.5 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:12,680 | 6254 |  main |  INFO | 8125|32334.5 | dip2.4 | [LONG] OPENING BUY PLACED | target price: 31874.5 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:12,682 | 6254 |  main |  INFO | 8132|32283.5 | dip2.1 | [LONG] OPENING BUY FILLED | fill price: 32283.5 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:12,683 | 6254 |  main |  INFO | 8135|32236.5 | dip2.2 | [LONG] OPENING BUY FILLED | fill price: 32236.5 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:12,695 | 6254 |  main |  INFO | 8166|32096.0 | dip2.3 | [LONG] OPENING BUY FILLED | fill price: 32096.0 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:12,743 | 6254 |  main |  INFO | 8266|31860.0 | dip2.4 | [LONG] OPENING BUY FILLED | fill price: 31860.0 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:12,759 | 6254 |  main |  INFO | 8288|31851.5 | dip3 | [LONG] OFFSET RANGE ESTABLISHED | base target:31828.5 | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:22:12,777 | 6254 |  main |  INFO | 8341|31828.0 | dip3 | [LONG] TRAILING ENTRY INITIATED | te target:31850.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:12,777 | 6254 |  main |  INFO | 8342|31824.5 | dip3 | [LONG] NEW TRAILING ENTRY TARGET | te target:31846.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:12,778 | 6254 |  main |  INFO | 8343|31823.0 | dip3 | [LONG] NEW TRAILING ENTRY TARGET | te target:31845.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:12,786 | 6254 |  main |  INFO | 8348|31851.5 | dip3 | [LONG] TRAILING ENTRY TRIGGERED | target price: 31851.5 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:13,933 | 6254 |  main |  INFO | 10868|32641.0 | dip2 | [LONG] CLOSING SELL PLACED | target price: 32691.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:13,933 | 6254 |  main |  INFO | 10868|32641.0 | dip3 | [LONG] CLOSING SELL PLACED | target price: 32691.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:13,933 | 6254 |  main |  INFO | 10868|32641.0 | dip2.1 | [LONG] CLOSING SELL PLACED | target price: 32649.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:13,933 | 6254 |  main |  INFO | 10868|32641.0 | dip2.2 | [LONG] CLOSING SELL PLACED | target price: 32650.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:13,933 | 6254 |  main |  INFO | 10868|32641.0 | dip2.3 | [LONG] CLOSING SELL PLACED | target price: 32993.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:13,934 | 6254 |  main |  INFO | 10868|32641.0 | dip2.4 | [LONG] CLOSING SELL PLACED | target price: 33423.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:13,934 | 6254 |  main |  INFO | 10869|32659.0 | dip2.1 | [LONG] CLOSING SELL FILLED | fill price: 32649.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:13,934 | 6254 |  main |  INFO | 10869|32659.0 | dip2.1 | [LONG] OPENING BUY PLACED | target price: 32619.0 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:13,934 | 6254 |  main |  INFO | 10870|32690.5 | dip2.2 | [LONG] CLOSING SELL FILLED | fill price: 32650.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:13,935 | 6254 |  main |  INFO | 10870|32690.5 | dip2.2 | [LONG] OPENING BUY PLACED | target price: 32600.5 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:13,935 | 6254 |  main |  INFO | 10871|32706.0 | dip2 | [LONG] CLOSING SELL FILLED | fill price: 32691.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:13,936 | 6254 |  main |  INFO | 10872|32694.0 | dip3 | [LONG] CLOSING SELL FILLED | fill price: 32691.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:14,906 | 6254 |  main |  INFO | 12775|33000.0 | dip2.3 | [LONG] CLOSING SELL FILLED | fill price: 32993.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:15,175 | 6254 |  main |  INFO | 13317|33429.0 | dip2.4 | [LONG] CLOSING SELL FILLED | fill price: 33423.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:20,980 | 6254 |  main |  INFO | 25508|33858.5 | dip2 | [LONG] OFFSET RANGE ESTABLISHED | base target:33845.5 | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:22:20,981 | 6254 |  main |  INFO | 25509|33836.5 | dip2 | [LONG] TRAILING ENTRY INITIATED | te target:33848.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:20,981 | 6254 |  main |  INFO | 25511|33807.0 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:33819.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:20,982 | 6254 |  main |  INFO | 25513|33834.5 | dip2 | [LONG] TRAILING ENTRY TRIGGERED | target price: 33834.5 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:20,982 | 6254 |  main |  INFO | 25513|33834.5 | dip2.1 | [LONG] OPENING BUY PLACED | target price: 33794.5 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:20,982 | 6254 |  main |  INFO | 25513|33834.5 | dip2.2 | [LONG] OPENING BUY PLACED | target price: 33744.5 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:20,982 | 6254 |  main |  INFO | 25513|33834.5 | dip2.3 | [LONG] OPENING BUY PLACED | target price: 33614.5 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:20,982 | 6254 |  main |  INFO | 25513|33834.5 | dip2.4 | [LONG] OPENING BUY PLACED | target price: 33374.5 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:21,018 | 6254 |  main |  INFO | 25591|33744.0 | dip2.1 | [LONG] OPENING BUY FILLED | fill price: 33744.0 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:21,019 | 6254 |  main |  INFO | 25592|33744.0 | dip2.2 | [LONG] OPENING BUY FILLED | fill price: 33744.0 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:21,291 | 6254 |  main |  INFO | 26114|34017.0 | dip2.3 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:21,442 | 6254 |  main |  INFO | 26414|34198.0 | dip2.4 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:21,592 | 6254 |  main |  INFO | 26715|34342.5 | dip2.3 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:21,892 | 6254 |  main |  INFO | 27315|34665.5 | dip2.4 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:21,892 | 6254 |  main |  INFO | 27316|34657.0 | dip2.3 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:22,010 | 6254 |  main |  INFO | 27548|34748.5 | dip2 | [LONG] CLOSING SELL PLACED | target price: 34798.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:22,011 | 6254 |  main |  INFO | 27548|34748.5 | dip2.1 | [LONG] CLOSING SELL PLACED | target price: 34756.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:22,011 | 6254 |  main |  INFO | 27548|34748.5 | dip2.2 | [LONG] CLOSING SELL PLACED | target price: 34757.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:22,061 | 6254 |  main |  INFO | 27658|34797.0 | dip2 | [LONG] CLOSING SELL FILLED | fill price: 34798.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:22,061 | 6254 |  main |  INFO | 27658|34797.0 | dip2.2 | [LONG] CLOSING SELL FILLED | fill price: 34757.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:22,063 | 6254 |  main |  INFO | 27659|34800.0 | dip2.1 | [LONG] CLOSING SELL FILLED | fill price: 34756.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:24,784 | 6254 |  main |  INFO | 33368|35136.5 | dip2 | [LONG] OFFSET RANGE ESTABLISHED | base target:35123.5 | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:22:24,785 | 6254 |  main |  INFO | 33373|35116.0 | dip2 | [LONG] TRAILING ENTRY INITIATED | te target:35128.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:24,786 | 6254 |  main |  INFO | 33374|35104.5 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:35116.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:24,790 | 6254 |  main |  INFO | 33383|35102.0 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:35114.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:24,791 | 6254 |  main |  INFO | 33384|35101.5 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:35113.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:24,791 | 6254 |  main |  INFO | 33386|35101.0 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:35113.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:24,793 | 6254 |  main |  INFO | 33392|35100.5 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:35112.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:24,796 | 6254 |  main |  INFO | 33402|35099.5 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:35111.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:24,798 | 6254 |  main |  INFO | 33406|35085.5 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:35097.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:24,798 | 6254 |  main |  INFO | 33407|35084.0 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:35096.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:24,804 | 6254 |  main |  INFO | 33425|35081.5 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:35093.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:24,816 | 6254 |  main |  INFO | 33431|35057.5 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:35069.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:24,817 | 6254 |  main |  INFO | 33432|35056.5 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:35068.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:24,820 | 6254 |  main |  INFO | 33441|35052.0 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:35064.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:24,822 | 6254 |  main |  INFO | 33443|35051.5 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:35063.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:24,823 | 6254 |  main |  INFO | 33444|35036.5 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:35048.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:24,823 | 6254 |  main |  INFO | 33445|35024.5 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:35036.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:24,824 | 6254 |  main |  INFO | 33446|35000.0 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:35012.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:24,824 | 6254 |  main |  INFO | 33448|34970.0 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:34982.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:24,825 | 6254 |  main |  INFO | 33450|34994.5 | dip2 | [LONG] TRAILING ENTRY TRIGGERED | target price: 34994.5 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:24,825 | 6254 |  main |  INFO | 33450|34994.5 | dip2.1 | [LONG] OPENING BUY PLACED | target price: 34954.5 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:24,825 | 6254 |  main |  INFO | 33450|34994.5 | dip2.2 | [LONG] OPENING BUY PLACED | target price: 34904.5 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:24,825 | 6254 |  main |  INFO | 33450|34994.5 | dip2.3 | [LONG] OPENING BUY PLACED | target price: 34774.5 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:24,825 | 6254 |  main |  INFO | 33450|34994.5 | dip2.4 | [LONG] OPENING BUY PLACED | target price: 34534.5 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:24,850 | 6254 |  main |  INFO | 33488|34989.0 | dip3 | [LONG] OFFSET RANGE ESTABLISHED | base target:34966.0 | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:22:24,882 | 6254 |  main |  INFO | 33548|35028.0 | dip3 | [LONG] CANCEL OFFSET RANGE DUE TO RSI. RECALIBRATING | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:22:24,986 | 6254 |  main |  INFO | 33751|35173.0 | dip2.1 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:24,986 | 6254 |  main |  INFO | 33751|35173.0 | dip2.2 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:24,990 | 6254 |  main |  INFO | 33763|35125.5 | dip2.1 | [LONG] OPENING BUY FILLED | fill price: 35125.5 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:25,050 | 6254 |  main |  INFO | 33880|35075.5 | dip2.2 | [LONG] OPENING BUY FILLED | fill price: 35075.5 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:25,144 | 6254 |  main |  INFO | 34051|34890.0 | dip2.3 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:25,167 | 6254 |  main |  INFO | 34088|34792.5 | dip3 | [LONG] OFFSET RANGE ESTABLISHED | base target:34769.5 | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:22:25,180 | 6254 |  main |  INFO | 34128|34762.5 | dip3 | [LONG] TRAILING ENTRY INITIATED | te target:34784.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:25,181 | 6254 |  main |  INFO | 34129|34751.5 | dip3 | [LONG] NEW TRAILING ENTRY TARGET | te target:34773.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:25,182 | 6254 |  main |  INFO | 34130|34734.0 | dip3 | [LONG] NEW TRAILING ENTRY TARGET | te target:34756.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:25,183 | 6254 |  main |  INFO | 34131|34733.5 | dip3 | [LONG] NEW TRAILING ENTRY TARGET | te target:34755.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:25,183 | 6254 |  main |  INFO | 34132|34762.0 | dip3 | [LONG] TRAILING ENTRY TRIGGERED | target price: 34762.0 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:25,296 | 6254 |  main |  INFO | 34351|34985.0 | dip2.4 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:25,449 | 6254 |  main |  INFO | 34652|35099.0 | dip2.3 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:25,747 | 6254 |  main |  INFO | 35252|35292.0 | dip2.4 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:25,748 | 6254 |  main |  INFO | 35253|35282.5 | dip2.3 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:26,044 | 6254 |  main |  INFO | 35828|35463.5 | dip2 | [LONG] CLOSING SELL PLACED | target price: 35513.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:26,044 | 6254 |  main |  INFO | 35828|35463.5 | dip3 | [LONG] CLOSING SELL PLACED | target price: 35513.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:26,045 | 6254 |  main |  INFO | 35828|35463.5 | dip2.1 | [LONG] CLOSING SELL PLACED | target price: 35471.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:26,045 | 6254 |  main |  INFO | 35828|35463.5 | dip2.2 | [LONG] CLOSING SELL PLACED | target price: 35472.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:26,047 | 6254 |  main |  INFO | 35836|35459.0 | dip2.1 | [LONG] CLOSING SELL FILLED | fill price: 35471.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:26,048 | 6254 |  main |  INFO | 35836|35459.0 | dip2.1 | [LONG] OPENING BUY PLACED | target price: 35419.0 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:26,051 | 6254 |  main |  INFO | 35845|35483.5 | dip2.2 | [LONG] CLOSING SELL FILLED | fill price: 35472.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:26,051 | 6254 |  main |  INFO | 35845|35483.5 | dip2.2 | [LONG] OPENING BUY PLACED | target price: 35393.5 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:26,054 | 6254 |  main |  INFO | 35854|35453.0 | dip2.3 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:26,056 | 6254 |  main |  INFO | 35859|35405.5 | dip2.1 | [LONG] OPENING BUY FILLED | fill price: 35405.5 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:26,056 | 6254 |  main |  INFO | 35859|35405.5 | dip2.1 | [LONG] CLOSING SELL PLACED | target price: 35413.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:26,060 | 6254 |  main |  INFO | 35866|35414.5 | dip2.1 | [LONG] CLOSING SELL FILLED | fill price: 35413.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:26,060 | 6254 |  main |  INFO | 35866|35414.5 | dip2.1 | [LONG] OPENING BUY PLACED | target price: 35374.5 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:26,113 | 6254 |  main |  INFO | 35951|35527.5 | dip2 | [LONG] CLOSING SELL FILLED | fill price: 35513.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:26,113 | 6254 |  main |  INFO | 35952|35572.5 | dip3 | [LONG] CLOSING SELL FILLED | fill price: 35513.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:30,075 | 6254 |  main |  INFO | 44288|35407.5 | dip2 | [LONG] OFFSET RANGE ESTABLISHED | base target:35394.5 | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:22:30,076 | 6254 |  main |  INFO | 44292|35389.5 | dip2 | [LONG] TRAILING ENTRY INITIATED | te target:35401.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:30,077 | 6254 |  main |  INFO | 44293|35376.5 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:35388.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:30,077 | 6254 |  main |  INFO | 44294|35369.0 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:35381.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:30,078 | 6254 |  main |  INFO | 44295|35363.0 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:35375.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:30,083 | 6254 |  main |  INFO | 44311|35350.5 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:35362.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:30,084 | 6254 |  main |  INFO | 44312|35338.0 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:35350.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:30,084 | 6254 |  main |  INFO | 44313|35332.5 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:35344.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:30,085 | 6254 |  main |  INFO | 44314|35329.0 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:35341.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:30,085 | 6254 |  main |  INFO | 44315|35323.0 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:35335.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:30,086 | 6254 |  main |  INFO | 44316|35322.0 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:35334.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:30,086 | 6254 |  main |  INFO | 44317|35313.0 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:35325.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:30,087 | 6254 |  main |  INFO | 44318|35311.5 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:35323.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:30,087 | 6254 |  main |  INFO | 44319|35311.0 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:35323.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:30,087 | 6254 |  main |  INFO | 44320|35291.5 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:35303.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:30,091 | 6254 |  main |  INFO | 44327|35281.0 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:35293.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:30,092 | 6254 |  main |  INFO | 44328|35280.0 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:35292.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:30,092 | 6254 |  main |  INFO | 44330|35274.5 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:35286.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:30,094 | 6254 |  main |  INFO | 44336|35263.0 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:35275.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:30,094 | 6254 |  main |  INFO | 44337|35256.5 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:35268.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:30,095 | 6254 |  main |  INFO | 44338|35256.0 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:35268.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:30,096 | 6254 |  main |  INFO | 44340|35255.5 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:35267.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:30,096 | 6254 |  main |  INFO | 44341|35255.0 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:35267.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:30,096 | 6254 |  main |  INFO | 44342|35250.5 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:35262.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:30,097 | 6254 |  main |  INFO | 44344|35250.0 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:35262.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:30,109 | 6254 |  main |  INFO | 44352|35271.0 | dip2 | [LONG] TRAILING ENTRY TRIGGERED | target price: 35271.0 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:30,109 | 6254 |  main |  INFO | 44352|35271.0 | dip2.1 | [LONG] OPENING BUY PLACED | target price: 35231.0 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:30,109 | 6254 |  main |  INFO | 44352|35271.0 | dip2.2 | [LONG] OPENING BUY PLACED | target price: 35181.0 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:30,109 | 6254 |  main |  INFO | 44352|35271.0 | dip2.3 | [LONG] OPENING BUY PLACED | target price: 35051.0 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:30,109 | 6254 |  main |  INFO | 44352|35271.0 | dip2.4 | [LONG] OPENING BUY PLACED | target price: 34811.0 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:30,189 | 6254 |  main |  INFO | 44509|35230.5 | dip2.1 | [LONG] OPENING BUY FILLED | fill price: 35230.5 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:30,241 | 6254 |  main |  INFO | 44593|35180.5 | dip2.2 | [LONG] OPENING BUY FILLED | fill price: 35180.5 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:30,257 | 6254 |  main |  INFO | 44637|35040.0 | dip2.3 | [LONG] OPENING BUY FILLED | fill price: 35040.0 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:30,271 | 6254 |  main |  INFO | 44648|35062.5 | dip3 | [LONG] OFFSET RANGE ESTABLISHED | base target:35039.5 | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:22:30,303 | 6254 |  main |  INFO | 44708|35108.5 | dip3 | [LONG] CANCEL OFFSET RANGE DUE TO RSI. RECALIBRATING | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:22:30,571 | 6254 |  main |  INFO | 45253|35170.5 | dip2.4 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:31,021 | 6254 |  main |  INFO | 46154|35194.0 | dip2.4 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:31,227 | 6254 |  main |  INFO | 46575|34709.0 | dip2.4 | [LONG] OPENING BUY FILLED | fill price: 34709.0 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:31,254 | 6254 |  main |  INFO | 46628|34587.5 | dip3 | [LONG] OFFSET RANGE ESTABLISHED | base target:34564.5 | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:22:31,269 | 6254 |  main |  INFO | 46672|34559.5 | dip3 | [LONG] TRAILING ENTRY INITIATED | te target:34581.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:31,270 | 6254 |  main |  INFO | 46673|34550.0 | dip3 | [LONG] NEW TRAILING ENTRY TARGET | te target:34572.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:31,270 | 6254 |  main |  INFO | 46674|34534.5 | dip3 | [LONG] NEW TRAILING ENTRY TARGET | te target:34556.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:31,270 | 6254 |  main |  INFO | 46675|34518.0 | dip3 | [LONG] NEW TRAILING ENTRY TARGET | te target:34540.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:31,275 | 6254 |  main |  INFO | 46686|34469.5 | dip3 | [LONG] NEW TRAILING ENTRY TARGET | te target:34491.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:31,276 | 6254 |  main |  INFO | 46687|34459.5 | dip3 | [LONG] NEW TRAILING ENTRY TARGET | te target:34481.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:31,285 | 6254 |  main |  INFO | 46688|34457.5 | dip3 | [LONG] NEW TRAILING ENTRY TARGET | te target:34479.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:31,286 | 6254 |  main |  INFO | 46689|34453.5 | dip3 | [LONG] NEW TRAILING ENTRY TARGET | te target:34475.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:31,286 | 6254 |  main |  INFO | 46690|34486.5 | dip3 | [LONG] TRAILING ENTRY TRIGGERED | target price: 34486.5 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:32,547 | 6254 |  main |  INFO | 49268|35178.5 | dip3 | [LONG] CLOSING SELL PLACED | target price: 35228.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:32,547 | 6254 |  main |  INFO | 49268|35178.5 | dip2.3 | [LONG] CLOSING SELL PLACED | target price: 35530.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:32,547 | 6254 |  main |  INFO | 49268|35178.5 | dip2.4 | [LONG] CLOSING SELL PLACED | target price: 35960.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:32,548 | 6254 |  main |  INFO | 49271|35181.0 | dip2.2 | [LONG] CLOSING SELL PLACED | target price: 35190.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:32,579 | 6254 |  main |  INFO | 49333|35188.5 | dip2.2 | [LONG] CLOSING SELL FILLED | fill price: 35190.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:32,580 | 6254 |  main |  INFO | 49333|35188.5 | dip2.2 | [LONG] OPENING BUY PLACED | target price: 35098.5 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:32,677 | 6254 |  main |  INFO | 49528|35083.0 | dip2.2 | [LONG] OPENING BUY FILLED | fill price: 35083.0 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:32,678 | 6254 |  main |  INFO | 49528|35083.0 | dip2.2 | [LONG] CLOSING SELL PLACED | target price: 35092.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:32,679 | 6254 |  main |  INFO | 49533|35093.0 | dip2.2 | [LONG] CLOSING SELL FILLED | fill price: 35092.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:32,680 | 6254 |  main |  INFO | 49533|35093.0 | dip2.2 | [LONG] OPENING BUY PLACED | target price: 35003.0 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:32,740 | 6254 |  main |  INFO | 49651|35002.5 | dip2.2 | [LONG] OPENING BUY FILLED | fill price: 35002.5 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:33,338 | 6254 |  main |  INFO | 50790|35235.0 | dip3 | [LONG] CLOSING SELL FILLED | fill price: 35228.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:34,011 | 6254 |  main |  INFO | 52088|35433.0 | dip2 | [LONG] CLOSING SELL PLACED | target price: 35483.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:34,011 | 6254 |  main |  INFO | 52088|35433.0 | dip2.1 | [LONG] CLOSING SELL PLACED | target price: 35441.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:34,011 | 6254 |  main |  INFO | 52088|35433.0 | dip2.2 | [LONG] CLOSING SELL PLACED | target price: 35442.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:34,013 | 6254 |  main |  INFO | 52092|35445.0 | dip2.1 | [LONG] CLOSING SELL FILLED | fill price: 35441.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:34,014 | 6254 |  main |  INFO | 52092|35445.0 | dip2.1 | [LONG] OPENING BUY PLACED | target price: 35405.0 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:34,014 | 6254 |  main |  INFO | 52093|35458.5 | dip2.2 | [LONG] CLOSING SELL FILLED | fill price: 35442.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:34,014 | 6254 |  main |  INFO | 52093|35458.5 | dip2.2 | [LONG] OPENING BUY PLACED | target price: 35368.5 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:34,019 | 6254 |  main |  INFO | 52105|35498.5 | dip2 | [LONG] CLOSING SELL FILLED | fill price: 35483.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:34,025 | 6254 |  main |  INFO | 52126|35532.5 | dip2.3 | [LONG] CLOSING SELL FILLED | fill price: 35530.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:35,362 | 6254 |  main |  INFO | 54832|36023.0 | dip2.4 | [LONG] CLOSING SELL FILLED | fill price: 35960.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:35,377 | 6254 |  main |  INFO | 54848|36161.0 | tip2 | [SHORT] OFFSET RANGE ESTABLISHED | base target:36194.0 | buy status:not_active | sell status:looking_to_open
+2021-06-21 18:22:35,378 | 6254 |  main |  INFO | 54850|36197.0 | tip2 | [SHORT] TRAILING ENTRY INITIATED | te target:36165.0 | buy status:not_active | sell status:trailing_entry
+2021-06-21 18:22:35,378 | 6254 |  main |  INFO | 54851|36204.5 | tip2 | [SHORT] NEW TRAILING ENTRY TARGET | te target:36172.5 | buy status:not_active | sell status:trailing_entry
+2021-06-21 18:22:35,380 | 6254 |  main |  INFO | 54852|36247.0 | tip2 | [SHORT] NEW TRAILING ENTRY TARGET | te target:36215.0 | buy status:not_active | sell status:trailing_entry
+2021-06-21 18:22:35,380 | 6254 |  main |  INFO | 54853|36251.5 | tip2 | [SHORT] NEW TRAILING ENTRY TARGET | te target:36219.5 | buy status:not_active | sell status:trailing_entry
+2021-06-21 18:22:35,381 | 6254 |  main |  INFO | 54854|36252.0 | tip2 | [SHORT] NEW TRAILING ENTRY TARGET | te target:36220.0 | buy status:not_active | sell status:trailing_entry
+2021-06-21 18:22:35,381 | 6254 |  main |  INFO | 54855|36218.5 | tip2 | [SHORT] TRAILING ENTRY TRIGGERED | target price: 36218.5 | buy status:not_active | sell status:looking_to_close
+2021-06-21 18:22:35,381 | 6254 |  main |  INFO | 54855|36218.5 | tip2.1 | [SHORT] OPENING SELL PLACED | target price: 36258.5 | buy status:not_active | sell status:open_placed
+2021-06-21 18:22:35,381 | 6254 |  main |  INFO | 54855|36218.5 | tip2.2 | [SHORT] OPENING SELL PLACED | target price: 36308.5 | buy status:not_active | sell status:open_placed
+2021-06-21 18:22:35,381 | 6254 |  main |  INFO | 54855|36218.5 | tip2.3 | [SHORT] OPENING SELL PLACED | target price: 36438.5 | buy status:not_active | sell status:open_placed
+2021-06-21 18:22:35,381 | 6254 |  main |  INFO | 54855|36218.5 | tip2.4 | [SHORT] OPENING SELL PLACED | target price: 36678.5 | buy status:not_active | sell status:open_placed
+2021-06-21 18:22:35,392 | 6254 |  main |  INFO | 54888|36264.0 | tip2.1 | [SHORT] OPENING SELL FILLED | fill price: 36264.0 | buy status:not_active | sell status:looking_to_close
+2021-06-21 18:22:35,394 | 6254 |  main |  INFO | 54893|36324.0 | tip2.2 | [SHORT] OPENING SELL FILLED | fill price: 36324.0 | buy status:not_active | sell status:looking_to_close
+2021-06-21 18:22:35,409 | 6254 |  main |  INFO | 54908|36339.5 | tip3 | [SHORT] OPENING SELL PLACED | target price: 36340.5 | buy status:not_active | sell status:open_placed
+2021-06-21 18:22:35,427 | 6254 |  main |  INFO | 54958|36345.5 | tip3 | [SHORT] OPENING SELL FILLED | fill price: 36345.5 | buy status:not_active | sell status:looking_to_close
+2021-06-21 18:22:35,431 | 6254 |  main |  INFO | 54966|36450.0 | tip2.3 | [SHORT] OPENING SELL FILLED | fill price: 36450.0 | buy status:not_active | sell status:looking_to_close
+2021-06-21 18:22:35,669 | 6254 |  main |  INFO | 55436|36669.0 | tip2.4 | [SHORT] OPENING SELL FILLED | fill price: 36669.0 | buy status:not_active | sell status:looking_to_close
+2021-06-21 18:22:38,152 | 6254 |  main |  INFO | 60608|36408.5 | dip2 | [LONG] OFFSET RANGE ESTABLISHED | base target:36395.5 | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:22:38,157 | 6254 |  main |  INFO | 60624|36381.0 | dip2 | [LONG] TRAILING ENTRY INITIATED | te target:36393.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:38,157 | 6254 |  main |  INFO | 60625|36366.0 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:36378.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:38,158 | 6254 |  main |  INFO | 60626|36365.5 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:36377.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:38,160 | 6254 |  main |  INFO | 60630|36364.5 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:36376.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:38,161 | 6254 |  main |  INFO | 60631|36363.5 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:36375.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:38,161 | 6254 |  main |  INFO | 60632|36363.0 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:36375.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:38,162 | 6254 |  main |  INFO | 60633|36360.0 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:36372.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:38,163 | 6254 |  main |  INFO | 60637|36378.0 | dip2 | [LONG] TRAILING ENTRY TRIGGERED | target price: 36378.0 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:38,163 | 6254 |  main |  INFO | 60637|36378.0 | dip2.1 | [LONG] OPENING BUY PLACED | target price: 36338.0 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:38,163 | 6254 |  main |  INFO | 60637|36378.0 | dip2.2 | [LONG] OPENING BUY PLACED | target price: 36288.0 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:38,163 | 6254 |  main |  INFO | 60637|36378.0 | dip2.3 | [LONG] OPENING BUY PLACED | target price: 36158.0 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:38,163 | 6254 |  main |  INFO | 60637|36378.0 | dip2.4 | [LONG] OPENING BUY PLACED | target price: 35918.0 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:38,226 | 6254 |  main |  INFO | 60760|36316.0 | dip2.1 | [LONG] OPENING BUY FILLED | fill price: 36316.0 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:38,226 | 6254 |  main |  INFO | 60760|36316.0 | tip3 | [SHORT] CLOSING BUY PLACED | target price: 36296.0 | buy status:not_active | sell status:looking_to_close
+2021-06-21 18:22:38,233 | 6254 |  main |  INFO | 60781|36286.5 | dip2.2 | [LONG] OPENING BUY FILLED | fill price: 36286.5 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:38,233 | 6254 |  main |  INFO | 60781|36286.5 | tip3 | [SHORT] CLOSING BUY FILLED | fill price: 36296.0 | buy status:not_active | sell status:close_placed
+2021-06-21 18:22:38,480 | 6254 |  main |  INFO | 61238|36591.5 | dip2.3 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:38,635 | 6254 |  main |  INFO | 61538|36521.5 | dip2.4 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:38,790 | 6254 |  main |  INFO | 61839|36638.0 | dip2.3 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:39,065 | 6254 |  main |  INFO | 62358|36406.5 | dip2.3 | [LONG] OPENING BUY FILLED | fill price: 36406.5 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:39,104 | 6254 |  main |  INFO | 62439|36420.5 | dip2.4 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:39,563 | 6254 |  main |  INFO | 63340|36310.0 | dip2.4 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:40,017 | 6254 |  main |  INFO | 64241|36553.5 | dip2.4 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:40,475 | 6254 |  main |  INFO | 65142|36351.0 | dip2.4 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:40,924 | 6254 |  main |  INFO | 66043|36339.5 | dip2.4 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:41,325 | 6254 |  main |  INFO | 66848|36674.5 | dip2 | [LONG] CLOSING SELL PLACED | target price: 36724.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:41,326 | 6254 |  main |  INFO | 66848|36674.5 | dip2.1 | [LONG] CLOSING SELL PLACED | target price: 36682.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:41,326 | 6254 |  main |  INFO | 66848|36674.5 | dip2.2 | [LONG] CLOSING SELL PLACED | target price: 36683.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:41,326 | 6254 |  main |  INFO | 66848|36674.5 | dip2.3 | [LONG] CLOSING SELL PLACED | target price: 37026.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:41,375 | 6254 |  main |  INFO | 66944|36544.5 | dip2.4 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:41,709 | 6254 |  main |  INFO | 67551|36080.0 | dip2.4 | [LONG] OPENING BUY FILLED | fill price: 36080.0 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:42,242 | 6254 |  main |  INFO | 68528|36094.0 | tip2 | [SHORT] CLOSING BUY PLACED | target price: 36044.0 | buy status:not_active | sell status:looking_to_close
+2021-06-21 18:22:42,713 | 6254 |  main |  INFO | 69382|36686.0 | dip2.1 | [LONG] CLOSING SELL FILLED | fill price: 36682.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:42,714 | 6254 |  main |  INFO | 69382|36686.0 | dip2.1 | [LONG] OPENING BUY PLACED | target price: 36646.0 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:42,714 | 6254 |  main |  INFO | 69383|36686.0 | dip2.2 | [LONG] CLOSING SELL FILLED | fill price: 36683.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:42,714 | 6254 |  main |  INFO | 69383|36686.0 | dip2.2 | [LONG] OPENING BUY PLACED | target price: 36596.0 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:42,715 | 6254 |  main |  INFO | 69386|36740.0 | dip2 | [LONG] CLOSING SELL FILLED | fill price: 36724.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:42,728 | 6254 |  main |  INFO | 69417|37004.5 | dip2.3 | [LONG] CLOSING SELL FILLED | fill price: 37026.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:42,741 | 6254 |  main |  INFO | 69428|36963.5 | dip2.4 | [LONG] CLOSING SELL PLACED | target price: 37745.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:43,734 | 6254 |  main |  INFO | 71400|37749.5 | dip2.4 | [LONG] CLOSING SELL FILLED | fill price: 37745.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:46,751 | 6254 |  main |  INFO | 77408|37995.0 | dip2 | [LONG] OFFSET RANGE ESTABLISHED | base target:37982.0 | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:22:46,762 | 6254 |  main |  INFO | 77443|37966.0 | dip2 | [LONG] TRAILING ENTRY INITIATED | te target:37978.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:46,764 | 6254 |  main |  INFO | 77447|37950.5 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:37962.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:46,766 | 6254 |  main |  INFO | 77449|37941.0 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:37953.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:46,767 | 6254 |  main |  INFO | 77452|37964.0 | dip2 | [LONG] TRAILING ENTRY TRIGGERED | target price: 37964.0 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:46,767 | 6254 |  main |  INFO | 77452|37964.0 | dip2.1 | [LONG] OPENING BUY PLACED | target price: 37924.0 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:46,767 | 6254 |  main |  INFO | 77452|37964.0 | dip2.2 | [LONG] OPENING BUY PLACED | target price: 37874.0 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:46,767 | 6254 |  main |  INFO | 77452|37964.0 | dip2.3 | [LONG] OPENING BUY PLACED | target price: 37744.0 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:46,767 | 6254 |  main |  INFO | 77452|37964.0 | dip2.4 | [LONG] OPENING BUY PLACED | target price: 37504.0 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:46,771 | 6254 |  main |  INFO | 77464|37924.0 | dip2.1 | [LONG] OPENING BUY FILLED | fill price: 37924.0 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:46,783 | 6254 |  main |  INFO | 77472|37868.0 | dip2.2 | [LONG] OPENING BUY FILLED | fill price: 37868.0 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:46,816 | 6254 |  main |  INFO | 77537|37721.5 | dip2.3 | [LONG] OPENING BUY FILLED | fill price: 37721.5 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:46,843 | 6254 |  main |  INFO | 77588|37636.0 | dip3 | [LONG] OFFSET RANGE ESTABLISHED | base target:37613.0 | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:22:46,847 | 6254 |  main |  INFO | 77599|37603.5 | dip3 | [LONG] TRAILING ENTRY INITIATED | te target:37625.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:46,848 | 6254 |  main |  INFO | 77600|37634.0 | dip3 | [LONG] TRAILING ENTRY TRIGGERED | target price: 37634.0 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:46,857 | 6254 |  main |  INFO | 77628|37484.5 | dip2.4 | [LONG] OPENING BUY FILLED | fill price: 37484.5 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:50,431 | 6254 |  main |  INFO | 84728|37815.5 | dip3 | [LONG] CLOSING SELL PLACED | target price: 37865.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:50,431 | 6254 |  main |  INFO | 84728|37815.5 | dip2.3 | [LONG] CLOSING SELL PLACED | target price: 38167.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:50,431 | 6254 |  main |  INFO | 84728|37815.5 | dip2.4 | [LONG] CLOSING SELL PLACED | target price: 38597.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:50,610 | 6254 |  main |  INFO | 85078|37874.5 | dip3 | [LONG] CLOSING SELL FILLED | fill price: 37865.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:50,611 | 6254 |  main |  INFO | 85078|37874.5 | dip2.2 | [LONG] CLOSING SELL PLACED | target price: 37883.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:50,611 | 6254 |  main |  INFO | 85080|37890.0 | dip2.2 | [LONG] CLOSING SELL FILLED | fill price: 37883.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:50,612 | 6254 |  main |  INFO | 85080|37890.0 | dip2.2 | [LONG] OPENING BUY PLACED | target price: 37800.0 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:50,632 | 6254 |  main |  INFO | 85111|37954.5 | dip2.1 | [LONG] CLOSING SELL PLACED | target price: 37962.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:50,632 | 6254 |  main |  INFO | 85112|37961.5 | dip2.1 | [LONG] CLOSING SELL FILLED | fill price: 37962.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:50,632 | 6254 |  main |  INFO | 85112|37961.5 | dip2.1 | [LONG] OPENING BUY PLACED | target price: 37921.5 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:50,636 | 6254 |  main |  INFO | 85123|37964.0 | dip2 | [LONG] CLOSING SELL PLACED | target price: 38014.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:50,640 | 6254 |  main |  INFO | 85130|38039.5 | dip2 | [LONG] CLOSING SELL FILLED | fill price: 38014.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:50,829 | 6254 |  main |  INFO | 85500|38190.5 | dip2.3 | [LONG] CLOSING SELL FILLED | fill price: 38167.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:52,230 | 6254 |  main |  INFO | 88148|37381.5 | dip2 | [LONG] OFFSET RANGE ESTABLISHED | base target:37368.5 | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:22:52,241 | 6254 |  main |  INFO | 88176|37368.5 | dip2 | [LONG] TRAILING ENTRY INITIATED | te target:37380.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:52,242 | 6254 |  main |  INFO | 88178|37358.0 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:37370.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:52,242 | 6254 |  main |  INFO | 88179|37343.0 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:37355.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:52,243 | 6254 |  main |  INFO | 88180|37335.5 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:37347.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:52,243 | 6254 |  main |  INFO | 88181|37334.0 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:37346.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:22:52,245 | 6254 |  main |  INFO | 88184|37349.5 | dip2 | [LONG] TRAILING ENTRY TRIGGERED | target price: 37349.5 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:52,245 | 6254 |  main |  INFO | 88184|37349.5 | dip2.1 | [LONG] OPENING BUY PLACED | target price: 37309.5 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:52,245 | 6254 |  main |  INFO | 88184|37349.5 | dip2.2 | [LONG] OPENING BUY PLACED | target price: 37259.5 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:52,245 | 6254 |  main |  INFO | 88184|37349.5 | dip2.3 | [LONG] OPENING BUY PLACED | target price: 37129.5 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:52,251 | 6254 |  main |  INFO | 88196|37306.5 | dip2.1 | [LONG] OPENING BUY FILLED | fill price: 37306.5 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:52,252 | 6254 |  main |  INFO | 88199|37256.0 | dip2.2 | [LONG] OPENING BUY FILLED | fill price: 37256.0 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:52,316 | 6254 |  main |  INFO | 88323|37125.5 | dip2.3 | [LONG] OPENING BUY FILLED | fill price: 37125.5 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:22:52,388 | 6254 |  main |  INFO | 88448|36936.0 | dip3 | [LONG] OFFSET RANGE ESTABLISHED | base target:36913.0 | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:22:52,419 | 6254 |  main |  INFO | 88508|37007.5 | dip3 | [LONG] CANCEL OFFSET RANGE DUE TO RSI. RECALIBRATING | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:22:54,287 | 6254 |  main |  INFO | 92108|37899.0 | dip2 | [LONG] CLOSING SELL PLACED | target price: 37949.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:54,287 | 6254 |  main |  INFO | 92108|37899.0 | dip2.1 | [LONG] CLOSING SELL PLACED | target price: 37907.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:54,287 | 6254 |  main |  INFO | 92108|37899.0 | dip2.2 | [LONG] CLOSING SELL PLACED | target price: 37908.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:54,287 | 6254 |  main |  INFO | 92108|37899.0 | dip2.3 | [LONG] CLOSING SELL PLACED | target price: 38251.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:56,385 | 6254 |  main |  INFO | 95901|37913.0 | dip2.1 | [LONG] CLOSING SELL FILLED | fill price: 37907.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:56,386 | 6254 |  main |  INFO | 95901|37913.0 | dip2.1 | [LONG] OPENING BUY PLACED | target price: 37873.0 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:56,386 | 6254 |  main |  INFO | 95902|37944.0 | dip2.2 | [LONG] CLOSING SELL FILLED | fill price: 37908.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:56,386 | 6254 |  main |  INFO | 95902|37944.0 | dip2.2 | [LONG] OPENING BUY PLACED | target price: 37854.0 | buy status:open_placed | sell status:not_active
+2021-06-21 18:22:56,399 | 6254 |  main |  INFO | 95941|37959.5 | dip2 | [LONG] CLOSING SELL FILLED | fill price: 37949.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:56,521 | 6254 |  main |  INFO | 96181|38240.5 | dip2.3 | [LONG] CLOSING SELL FILLED | fill price: 38251.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:58,838 | 6254 |  main |  INFO | 100689|38656.5 | dip2.4 | [LONG] CLOSING SELL FILLED | fill price: 38597.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:22:58,900 | 6254 |  main |  INFO | 100808|39645.5 | tip3 | [SHORT] OPENING SELL PLACED | target price: 39646.5 | buy status:not_active | sell status:open_placed
+2021-06-21 18:22:58,900 | 6254 |  main |  INFO | 100809|39672.0 | tip3 | [SHORT] OPENING SELL FILLED | fill price: 39672.0 | buy status:not_active | sell status:looking_to_close
+2021-06-21 18:23:00,678 | 6254 |  main |  INFO | 104348|38846.0 | dip2 | [LONG] OFFSET RANGE ESTABLISHED | base target:38833.0 | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:23:00,678 | 6254 |  main |  INFO | 104348|38846.0 | dip3 | [LONG] OFFSET RANGE ESTABLISHED | base target:38823.0 | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:23:00,679 | 6254 |  main |  INFO | 104348|38846.0 | tip3 | [SHORT] CLOSING BUY PLACED | target price: 38826.0 | buy status:not_active | sell status:looking_to_close
+2021-06-21 18:23:00,708 | 6254 |  main |  INFO | 104408|39119.0 | dip3 | [LONG] CANCEL OFFSET RANGE DUE TO RSI. RECALIBRATING | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:23:00,708 | 6254 |  main |  INFO | 104409|39084.5 | dip2 | [LONG] OFFSET TARGET TIMED OUT. RECALIBRATING | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:23:00,710 | 6254 |  main |  INFO | 104410|39085.0 | dip2 | [LONG] OFFSET RANGE ESTABLISHED | base target:39072.0 | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:23:00,710 | 6254 |  main |  INFO | 104411|39065.5 | dip2 | [LONG] TRAILING ENTRY INITIATED | te target:39077.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:23:00,711 | 6254 |  main |  INFO | 104412|39060.0 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:39072.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:23:00,711 | 6254 |  main |  INFO | 104413|39039.5 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:39051.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:23:00,712 | 6254 |  main |  INFO | 104417|39037.5 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:39049.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:23:00,713 | 6254 |  main |  INFO | 104418|39022.0 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:39034.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:23:00,713 | 6254 |  main |  INFO | 104419|38999.5 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:39011.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:23:00,714 | 6254 |  main |  INFO | 104421|38998.5 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:39010.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:23:00,715 | 6254 |  main |  INFO | 104425|39017.5 | dip2 | [LONG] TRAILING ENTRY TRIGGERED | target price: 39017.5 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:23:00,716 | 6254 |  main |  INFO | 104425|39017.5 | dip2.1 | [LONG] OPENING BUY PLACED | target price: 38977.5 | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:00,716 | 6254 |  main |  INFO | 104425|39017.5 | dip2.2 | [LONG] OPENING BUY PLACED | target price: 38927.5 | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:00,716 | 6254 |  main |  INFO | 104425|39017.5 | dip2.3 | [LONG] OPENING BUY PLACED | target price: 38797.5 | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:00,716 | 6254 |  main |  INFO | 104425|39017.5 | dip2.4 | [LONG] OPENING BUY PLACED | target price: 38557.5 | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:00,752 | 6254 |  main |  INFO | 104497|38972.5 | dip2.1 | [LONG] OPENING BUY FILLED | fill price: 38972.5 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:23:00,780 | 6254 |  main |  INFO | 104546|38905.5 | dip2.2 | [LONG] OPENING BUY FILLED | fill price: 38905.5 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:23:01,031 | 6254 |  main |  INFO | 105026|39015.5 | dip2.3 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:01,190 | 6254 |  main |  INFO | 105326|39089.0 | dip2.4 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:01,352 | 6254 |  main |  INFO | 105627|39200.0 | dip2.3 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:01,663 | 6254 |  main |  INFO | 106227|39059.5 | dip2.4 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:01,663 | 6254 |  main |  INFO | 106228|39059.5 | dip2.3 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:01,981 | 6254 |  main |  INFO | 106829|39125.0 | dip2.3 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:02,146 | 6254 |  main |  INFO | 107128|38919.0 | dip2.4 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:02,309 | 6254 |  main |  INFO | 107430|39106.5 | dip2.3 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:02,464 | 6254 |  main |  INFO | 107724|38882.0 | dip2.3 | [LONG] OPENING BUY FILLED | fill price: 38882.0 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:23:02,465 | 6254 |  main |  INFO | 107727|38774.5 | tip3 | [SHORT] CLOSING BUY FILLED | fill price: 38826.0 | buy status:not_active | sell status:close_placed
+2021-06-21 18:23:02,560 | 6254 |  main |  INFO | 107918|38448.5 | dip2.4 | [LONG] OPENING BUY FILLED | fill price: 38448.5 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:23:02,580 | 6254 |  main |  INFO | 107948|38419.0 | dip3 | [LONG] OFFSET RANGE ESTABLISHED | base target:38396.0 | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:23:02,583 | 6254 |  main |  INFO | 107958|38388.0 | dip3 | [LONG] TRAILING ENTRY INITIATED | te target:38410.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:23:02,585 | 6254 |  main |  INFO | 107959|38384.0 | dip3 | [LONG] NEW TRAILING ENTRY TARGET | te target:38406.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:23:02,585 | 6254 |  main |  INFO | 107960|38433.0 | dip3 | [LONG] TRAILING ENTRY TRIGGERED | target price: 38433.0 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:23:05,748 | 6254 |  main |  INFO | 114308|38601.5 | dip3 | [LONG] CLOSING SELL PLACED | target price: 38651.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:05,748 | 6254 |  main |  INFO | 114308|38601.5 | dip2.4 | [LONG] CLOSING SELL PLACED | target price: 39383.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:05,813 | 6254 |  main |  INFO | 114439|38673.5 | dip3 | [LONG] CLOSING SELL FILLED | fill price: 38651.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:06,186 | 6254 |  main |  INFO | 115174|38905.5 | dip2.2 | [LONG] CLOSING SELL PLACED | target price: 38914.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:06,186 | 6254 |  main |  INFO | 115174|38905.5 | dip2.3 | [LONG] CLOSING SELL PLACED | target price: 39257.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:06,187 | 6254 |  main |  INFO | 115175|38913.5 | dip2.2 | [LONG] CLOSING SELL FILLED | fill price: 38914.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:06,187 | 6254 |  main |  INFO | 115175|38913.5 | dip2.2 | [LONG] OPENING BUY PLACED | target price: 38823.5 | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:06,243 | 6254 |  main |  INFO | 115271|38804.0 | dip2.2 | [LONG] OPENING BUY FILLED | fill price: 38804.0 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:23:06,243 | 6254 |  main |  INFO | 115271|38804.0 | dip2.2 | [LONG] CLOSING SELL PLACED | target price: 38813.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:06,245 | 6254 |  main |  INFO | 115277|38814.0 | dip2.2 | [LONG] CLOSING SELL FILLED | fill price: 38813.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:06,246 | 6254 |  main |  INFO | 115277|38814.0 | dip2.2 | [LONG] OPENING BUY PLACED | target price: 38724.0 | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:06,282 | 6254 |  main |  INFO | 115355|38719.0 | dip2.2 | [LONG] OPENING BUY FILLED | fill price: 38719.0 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:23:06,282 | 6254 |  main |  INFO | 115355|38719.0 | dip2.2 | [LONG] CLOSING SELL PLACED | target price: 38728.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:06,316 | 6254 |  main |  INFO | 115422|38740.0 | dip2.2 | [LONG] CLOSING SELL FILLED | fill price: 38728.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:06,316 | 6254 |  main |  INFO | 115422|38740.0 | dip2.2 | [LONG] OPENING BUY PLACED | target price: 38650.0 | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:06,336 | 6254 |  main |  INFO | 115453|38648.5 | dip2.2 | [LONG] OPENING BUY FILLED | fill price: 38648.5 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:23:06,772 | 6254 |  main |  INFO | 116288|39016.0 | dip2.1 | [LONG] CLOSING SELL PLACED | target price: 39024.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:06,772 | 6254 |  main |  INFO | 116288|39016.0 | dip2.2 | [LONG] CLOSING SELL PLACED | target price: 39025.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:06,772 | 6254 |  main |  INFO | 116289|39017.5 | dip2 | [LONG] CLOSING SELL PLACED | target price: 39067.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:06,773 | 6254 |  main |  INFO | 116290|39036.0 | dip2.1 | [LONG] CLOSING SELL FILLED | fill price: 39024.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:06,773 | 6254 |  main |  INFO | 116290|39036.0 | dip2.1 | [LONG] OPENING BUY PLACED | target price: 38996.0 | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:06,773 | 6254 |  main |  INFO | 116291|39046.5 | dip2.2 | [LONG] CLOSING SELL FILLED | fill price: 39025.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:06,774 | 6254 |  main |  INFO | 116291|39046.5 | dip2.2 | [LONG] OPENING BUY PLACED | target price: 38956.5 | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:06,780 | 6254 |  main |  INFO | 116305|38978.0 | dip2.1 | [LONG] OPENING BUY FILLED | fill price: 38978.0 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:23:06,780 | 6254 |  main |  INFO | 116305|38978.0 | dip2.1 | [LONG] CLOSING SELL PLACED | target price: 38986.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:06,781 | 6254 |  main |  INFO | 116309|39000.5 | dip2.1 | [LONG] CLOSING SELL FILLED | fill price: 38986.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:06,782 | 6254 |  main |  INFO | 116309|39000.5 | dip2.1 | [LONG] OPENING BUY PLACED | target price: 38960.5 | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:06,782 | 6254 |  main |  INFO | 116311|38958.5 | dip2.1 | [LONG] OPENING BUY FILLED | fill price: 38958.5 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:23:06,782 | 6254 |  main |  INFO | 116311|38958.5 | dip2.1 | [LONG] CLOSING SELL PLACED | target price: 38966.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:06,783 | 6254 |  main |  INFO | 116312|38954.0 | dip2.2 | [LONG] OPENING BUY FILLED | fill price: 38954.0 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:23:06,783 | 6254 |  main |  INFO | 116312|38954.0 | dip2.2 | [LONG] CLOSING SELL PLACED | target price: 38963.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:06,790 | 6254 |  main |  INFO | 116330|38975.5 | dip2.1 | [LONG] CLOSING SELL FILLED | fill price: 38966.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:06,790 | 6254 |  main |  INFO | 116330|38975.5 | dip2.1 | [LONG] OPENING BUY PLACED | target price: 38935.5 | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:06,790 | 6254 |  main |  INFO | 116331|38995.0 | dip2.2 | [LONG] CLOSING SELL FILLED | fill price: 38963.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:06,791 | 6254 |  main |  INFO | 116331|38995.0 | dip2.2 | [LONG] OPENING BUY PLACED | target price: 38905.0 | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:06,813 | 6254 |  main |  INFO | 116362|39070.0 | dip2 | [LONG] CLOSING SELL FILLED | fill price: 39067.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:07,379 | 6254 |  main |  INFO | 117487|39266.5 | dip2.3 | [LONG] CLOSING SELL FILLED | fill price: 39257.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:07,424 | 6254 |  main |  INFO | 117560|39390.0 | dip2.4 | [LONG] CLOSING SELL FILLED | fill price: 39383.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:08,826 | 6254 |  main |  INFO | 120368|39203.0 | dip2 | [LONG] OFFSET RANGE ESTABLISHED | base target:39190.0 | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:23:08,840 | 6254 |  main |  INFO | 120406|39185.0 | dip2 | [LONG] TRAILING ENTRY INITIATED | te target:39197.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:23:08,840 | 6254 |  main |  INFO | 120407|39184.0 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:39196.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:23:08,842 | 6254 |  main |  INFO | 120412|39179.0 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:39191.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:23:08,843 | 6254 |  main |  INFO | 120414|39178.5 | dip2 | [LONG] NEW TRAILING ENTRY TARGET | te target:39190.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:23:08,844 | 6254 |  main |  INFO | 120417|39196.5 | dip2 | [LONG] TRAILING ENTRY TRIGGERED | target price: 39196.5 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:23:08,844 | 6254 |  main |  INFO | 120417|39196.5 | dip2.1 | [LONG] OPENING BUY PLACED | target price: 39156.5 | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:08,844 | 6254 |  main |  INFO | 120417|39196.5 | dip2.2 | [LONG] OPENING BUY PLACED | target price: 39106.5 | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:08,844 | 6254 |  main |  INFO | 120417|39196.5 | dip2.3 | [LONG] OPENING BUY PLACED | target price: 38976.5 | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:08,844 | 6254 |  main |  INFO | 120417|39196.5 | dip2.4 | [LONG] OPENING BUY PLACED | target price: 38736.5 | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:09,001 | 6254 |  main |  INFO | 120718|39383.5 | dip2.1 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:09,001 | 6254 |  main |  INFO | 120718|39383.5 | dip2.2 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:09,082 | 6254 |  main |  INFO | 120862|39340.0 | dip2.1 | [LONG] OPENING BUY FILLED | fill price: 39340.0 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:23:09,087 | 6254 |  main |  INFO | 120872|39288.0 | dip2.2 | [LONG] OPENING BUY FILLED | fill price: 39288.0 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:23:09,167 | 6254 |  main |  INFO | 121018|39314.5 | dip2.3 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:09,203 | 6254 |  main |  INFO | 121084|39099.5 | dip2.3 | [LONG] OPENING BUY FILLED | fill price: 39099.5 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:23:09,213 | 6254 |  main |  INFO | 121088|39123.5 | dip3 | [LONG] OFFSET RANGE ESTABLISHED | base target:39100.5 | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:23:09,246 | 6254 |  main |  INFO | 121149|39143.5 | dip3 | [LONG] OFFSET TARGET TIMED OUT. RECALIBRATING | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:23:09,246 | 6254 |  main |  INFO | 121150|39144.0 | dip3 | [LONG] OFFSET RANGE ESTABLISHED | base target:39121.0 | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:23:09,277 | 6254 |  main |  INFO | 121211|39153.5 | dip3 | [LONG] OFFSET TARGET TIMED OUT. RECALIBRATING | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:23:09,277 | 6254 |  main |  INFO | 121212|39160.0 | dip3 | [LONG] OFFSET RANGE ESTABLISHED | base target:39137.0 | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:23:09,297 | 6254 |  main |  INFO | 121267|39124.5 | dip3 | [LONG] TRAILING ENTRY INITIATED | te target:39146.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:23:09,309 | 6254 |  main |  INFO | 121275|39114.0 | dip3 | [LONG] NEW TRAILING ENTRY TARGET | te target:39136.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:23:09,311 | 6254 |  main |  INFO | 121281|39113.5 | dip3 | [LONG] NEW TRAILING ENTRY TARGET | te target:39135.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:23:09,312 | 6254 |  main |  INFO | 121282|39113.0 | dip3 | [LONG] NEW TRAILING ENTRY TARGET | te target:39135.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:23:09,313 | 6254 |  main |  INFO | 121283|39110.5 | dip3 | [LONG] NEW TRAILING ENTRY TARGET | te target:39132.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:23:09,313 | 6254 |  main |  INFO | 121285|39110.0 | dip3 | [LONG] NEW TRAILING ENTRY TARGET | te target:39132.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:23:09,314 | 6254 |  main |  INFO | 121286|39104.0 | dip3 | [LONG] NEW TRAILING ENTRY TARGET | te target:39126.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:23:09,327 | 6254 |  main |  INFO | 121318|39109.0 | dip2.4 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:09,330 | 6254 |  main |  INFO | 121326|39101.0 | dip3 | [LONG] NEW TRAILING ENTRY TARGET | te target:39123.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:23:09,330 | 6254 |  main |  INFO | 121327|39098.0 | dip3 | [LONG] NEW TRAILING ENTRY TARGET | te target:39120.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:23:09,341 | 6254 |  main |  INFO | 121329|39096.0 | dip3 | [LONG] NEW TRAILING ENTRY TARGET | te target:39118.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:23:09,341 | 6254 |  main |  INFO | 121330|39092.0 | dip3 | [LONG] NEW TRAILING ENTRY TARGET | te target:39114.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:23:09,342 | 6254 |  main |  INFO | 121331|39090.0 | dip3 | [LONG] NEW TRAILING ENTRY TARGET | te target:39112.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:23:09,345 | 6254 |  main |  INFO | 121340|39114.0 | dip3 | [LONG] TRAILING ENTRY TRIGGERED | target price: 39114.0 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:23:09,798 | 6254 |  main |  INFO | 122219|38819.5 | dip2.4 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:10,274 | 6254 |  main |  INFO | 123120|38857.0 | dip2.4 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:10,725 | 6254 |  main |  INFO | 123985|38397.5 | dip2.4 | [LONG] OPENING BUY FILLED | fill price: 38397.5 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:23:13,981 | 6254 |  main |  INFO | 130388|38401.0 | dip2.4 | [LONG] CLOSING SELL PLACED | target price: 39183.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:19,381 | 6254 |  main |  INFO | 140905|39111.5 | dip2.3 | [LONG] CLOSING SELL PLACED | target price: 39463.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:19,382 | 6254 |  main |  INFO | 140906|39142.0 | dip3 | [LONG] CLOSING SELL PLACED | target price: 39192.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:19,477 | 6254 |  main |  INFO | 141087|39205.0 | dip2.4 | [LONG] CLOSING SELL FILLED | fill price: 39183.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:19,477 | 6254 |  main |  INFO | 141087|39205.0 | dip3 | [LONG] CLOSING SELL FILLED | fill price: 39192.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:19,477 | 6254 |  main |  INFO | 141087|39205.0 | dip2 | [LONG] CLOSING SELL PLACED | target price: 39255.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:19,477 | 6254 |  main |  INFO | 141087|39205.0 | dip2.4 | [LONG] OPENING BUY PLACED | target price: 38745.0 | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:19,949 | 6254 |  main |  INFO | 141988|38994.0 | dip2.4 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:20,421 | 6254 |  main |  INFO | 142889|38985.5 | dip2.4 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:20,920 | 6254 |  main |  INFO | 143790|38860.0 | dip2.4 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:21,396 | 6254 |  main |  INFO | 144691|38922.0 | dip2.4 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:21,881 | 6254 |  main |  INFO | 145592|38902.0 | dip2.4 | [LONG] TIMEOUT OPENING BUY | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:22,103 | 6254 |  main |  INFO | 146019|38433.0 | dip2.4 | [LONG] OPENING BUY FILLED | fill price: 38433.0 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:23:22,871 | 6254 |  main |  INFO | 147428|38196.5 | dip3 | [LONG] OFFSET RANGE ESTABLISHED | base target:38173.5 | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:23:22,901 | 6254 |  main |  INFO | 147488|38272.0 | dip3 | [LONG] CANCEL OFFSET RANGE DUE TO RSI. RECALIBRATING | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:23:22,932 | 6254 |  main |  INFO | 147548|38212.0 | dip3 | [LONG] OFFSET RANGE ESTABLISHED | base target:38189.0 | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:23:22,963 | 6254 |  main |  INFO | 147609|38273.0 | dip3 | [LONG] OFFSET TARGET TIMED OUT. RECALIBRATING | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:23:22,963 | 6254 |  main |  INFO | 147610|38273.0 | dip3 | [LONG] OFFSET RANGE ESTABLISHED | base target:38250.0 | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:23:22,994 | 6254 |  main |  INFO | 147671|38296.5 | dip3 | [LONG] OFFSET TARGET TIMED OUT. RECALIBRATING | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:23:22,994 | 6254 |  main |  INFO | 147672|38296.5 | dip3 | [LONG] OFFSET RANGE ESTABLISHED | base target:38273.5 | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:23:23,002 | 6254 |  main |  INFO | 147695|38235.0 | dip3 | [LONG] TRAILING ENTRY INITIATED | te target:38257.0 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:23:23,003 | 6254 |  main |  INFO | 147697|38258.0 | dip3 | [LONG] TRAILING ENTRY TRIGGERED | target price: 38258.0 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:23:25,809 | 6254 |  main |  INFO | 153008|37241.5 | dip1 | [LONG] OFFSET RANGE ESTABLISHED | base target:37235.5 | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:23:25,841 | 6254 |  main |  INFO | 153068|37412.5 | dip1 | [LONG] CANCEL OFFSET RANGE DUE TO RSI. RECALIBRATING | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:23:26,414 | 6254 |  main |  INFO | 154148|36982.0 | dip1 | [LONG] OFFSET RANGE ESTABLISHED | base target:36976.0 | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:23:26,447 | 6254 |  main |  INFO | 154208|37048.5 | dip1 | [LONG] CANCEL OFFSET RANGE DUE TO RSI. RECALIBRATING | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:23:26,635 | 6254 |  main |  INFO | 154568|36887.5 | dip1 | [LONG] OFFSET RANGE ESTABLISHED | base target:36881.5 | buy status:looking_to_open | sell status:not_active
+2021-06-21 18:23:26,639 | 6254 |  main |  INFO | 154577|36877.5 | dip1 | [LONG] TRAILING ENTRY INITIATED | te target:36882.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:23:26,639 | 6254 |  main |  INFO | 154578|36853.5 | dip1 | [LONG] NEW TRAILING ENTRY TARGET | te target:36858.5 | buy status:trailing_entry | sell status:not_active
+2021-06-21 18:23:26,640 | 6254 |  main |  INFO | 154580|36859.0 | dip1 | [LONG] TRAILING ENTRY TRIGGERED | target price: 36859.0 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:23:26,640 | 6254 |  main |  INFO | 154580|36859.0 | dip1.1 | [LONG] OPENING BUY PLACED | target price: 36841.0 | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:26,640 | 6254 |  main |  INFO | 154580|36859.0 | dip1.2 | [LONG] OPENING BUY PLACED | target price: 36837.0 | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:26,640 | 6254 |  main |  INFO | 154580|36859.0 | dip1.3 | [LONG] OPENING BUY PLACED | target price: 36837.0 | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:26,640 | 6254 |  main |  INFO | 154580|36859.0 | dip1.4 | [LONG] OPENING BUY PLACED | target price: 36382.0 | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:26,640 | 6254 |  main |  INFO | 154580|36859.0 | dip1.5 | [LONG] OPENING BUY PLACED | target price: 36260.0 | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:26,640 | 6254 |  main |  INFO | 154580|36859.0 | dip1.6 | [LONG] OPENING BUY PLACED | target price: 36060.0 | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:26,640 | 6254 |  main |  INFO | 154580|36859.0 | dip1.7 | [LONG] OPENING BUY PLACED | target price: 35839.0 | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:26,646 | 6254 |  main |  INFO | 154594|36838.5 | dip1.1 | [LONG] OPENING BUY FILLED | fill price: 36838.5 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:23:27,895 | 6254 |  main |  INFO | 156782|36813.0 | dip1.2 | [LONG] OPENING BUY FILLED | fill price: 36813.0 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:23:27,895 | 6254 |  main |  INFO | 156783|36821.0 | dip1.3 | [LONG] OPENING BUY FILLED | fill price: 36821.0 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:23:30,715 | 6254 |  main |  INFO | 161828|36993.0 | dip1 | [LONG] CLOSING SELL PLACED | target price: 37423.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:30,715 | 6254 |  main |  INFO | 161828|36993.0 | dip1.1 | [LONG] CLOSING SELL PLACED | target price: 37533.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:30,715 | 6254 |  main |  INFO | 161828|36993.0 | dip1.2 | [LONG] CLOSING SELL PLACED | target price: 37653.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:30,715 | 6254 |  main |  INFO | 161828|36993.0 | dip1.3 | [LONG] CLOSING SELL PLACED | target price: 37213.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:31,353 | 6254 |  main |  INFO | 162866|37220.0 | dip1.3 | [LONG] CLOSING SELL FILLED | fill price: 37213.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:31,353 | 6254 |  main |  INFO | 162866|37220.0 | dip1.3 | [LONG] OPENING BUY PLACED | target price: 37198.0 | buy status:open_placed | sell status:not_active
+2021-06-21 18:23:31,662 | 6254 |  main |  INFO | 163395|37194.0 | dip1.3 | [LONG] OPENING BUY FILLED | fill price: 37194.0 | buy status:looking_to_close | sell status:not_active
+2021-06-21 18:23:31,694 | 6254 |  main |  INFO | 163448|37268.5 | dip1.3 | [LONG] CLOSING SELL PLACED | target price: 37488.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:32,095 | 6254 |  main |  INFO | 164147|37427.5 | dip1 | [LONG] CLOSING SELL FILLED | fill price: 37423.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:32,328 | 6254 |  main |  INFO | 164563|37524.0 | dip1.3 | [LONG] CLOSING SELL FILLED | fill price: 37488.5 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:32,329 | 6254 |  main |  INFO | 164564|37538.0 | dip1.1 | [LONG] CLOSING SELL FILLED | fill price: 37533.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:32,331 | 6254 |  main |  INFO | 164569|37719.0 | dip1.2 | [LONG] CLOSING SELL FILLED | fill price: 37653.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:36,370 | 6254 |  main |  INFO | 172268|38400.0 | dip3 | [LONG] CLOSING SELL PLACED | target price: 38450.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:36,406 | 6254 |  main |  INFO | 172340|38459.0 | dip3 | [LONG] CLOSING SELL FILLED | fill price: 38450.0 | buy status:close_placed | sell status:not_active
+2021-06-21 18:23:36,407 | 6254 |  main |  INFO | 172340|38459.0 | dip2.4 | [LONG] CLOSING SELL PLACED | target price: 39241.0 | buy status:close_placed | sell status:not_active
