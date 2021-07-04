@@ -1,0 +1,42 @@
+{
+    "key" : "IdtbHHsCwGzLDW0AGf",
+    "private": "lBhNAxZXujnnN7ZcN0M9HdisdrHzjjO1KL0O",
+    "exchange": "bybit",
+    "network": "testnet",
+    "asset": "btcusd",
+    "version": "2.0.2.6",
+    "stopTradingTrigger":90,
+    "killEmergencyTrigger":100,
+    "leverage":0,
+    "leverageManager" : {
+        "maximumLeverage": 2,
+        "aggressive_tablesLONG" : ["bull_aggressive"],
+        "aggressive_tablesSHORT" : ["bear_aggressive"]
+    },
+    "supportResistance" : {
+        "useSR" : "False",
+        "tolerance" : 4,
+
+        "support" : {
+            "support_price" : 31500,
+            "support_breakout" : 30000,
+            "support_flip" : 33000,
+            "support_tables" : ["NONE"],
+            "deactivate_support" : ["NONE"]
+
+        },
+
+        "resistance" : {
+            "resistance_price" : 40000,
+            "resistance_breakout" : 41000,
+            "resistance_flip" : 39000,
+            "resistance_tables" : ["NONE"],
+            "deactivate_resistance" : ["NONE"]
+        }    
+        
+    },
+    "license" : {
+        "email": "dev@genesis-algo.com",
+        "key": "TuJyZYn!07D7"
+    }
+}
