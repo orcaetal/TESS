@@ -1,0 +1,33 @@
+{
+    "name": "genesis-bot-backend",
+    "description": "",
+    "botversion": "2.0.0",
+    "version": "1.0.0",
+    "scripts": {
+        "build": "npm install && npm run pyarmor && npm run package-scripts && npm run package-files && npm run package-bot",
+        "run:mac": "bash run_mac.command",
+        "run:ubuntu": "bash run_ubuntu.sh",
+        "run:windows": "run_windows.bat",
+        "pyarmor": "npm run pyarmor:clean && npm run pyarmor:bot && npm run pyarmor:oracle && npm run pyarmor:live && npm run pyarmor:tables && npm run pyarmor:dataframes && npm run pyarmor:indicators && npm run pyarmor:livechartmain && npm run pyarmor:tradehist && npm run pyarmor:adapter && npm run pyarmor:adapterFactory && npm run pyarmor:bybit && npm run pyarmor:agentLogs",
+        "pyarmor:clean": "shx rm -rf dist",
+        "pyarmor:adapter": "pyarmor obfuscate --platform windows.x86_64 --platform windows.x86 --platform linux.x86_64 --platform linux.x86  --platform darwin.x86_64 --exact adapter.py",
+        "pyarmor:adapterFactory": "pyarmor obfuscate --platform windows.x86_64 --platform windows.x86 --platform linux.x86_64 --platform linux.x86  --platform darwin.x86_64 --exact adapterFactory.py",
+        "pyarmor:bybit": "pyarmor obfuscate --platform windows.x86_64 --platform windows.x86 --platform linux.x86_64 --platform linux.x86  --platform darwin.x86_64 --exact bybit.py",
+        "pyarmor:bot": "pyarmor obfuscate --platform windows.x86_64 --platform windows.x86 --platform linux.x86_64 --platform linux.x86  --platform darwin.x86_64 --exact bot.py",
+        "pyarmor:oracle": "pyarmor obfuscate --platform windows.x86_64 --platform windows.x86 --platform linux.x86_64 --platform linux.x86  --platform darwin.x86_64 --exact oracle.py",
+        "pyarmor:live": "pyarmor obfuscate --platform windows.x86_64 --platform windows.x86 --platform linux.x86_64 --platform linux.x86  --platform darwin.x86_64 --exact live_functions.py",
+        "pyarmor:dataframes": "pyarmor obfuscate --platform windows.x86_64 --platform windows.x86 --platform linux.x86_64 --platform linux.x86  --platform darwin.x86_64 --exact dataframes.py",
+        "pyarmor:indicators": "pyarmor obfuscate --platform windows.x86_64 --platform windows.x86 --platform linux.x86_64 --platform linux.x86  --platform darwin.x86_64 --exact indicators.py",
+        "pyarmor:livechartmain": "pyarmor obfuscate --platform windows.x86_64 --platform windows.x86 --platform linux.x86_64 --platform linux.x86  --platform darwin.x86_64 --exact livechartMain.py",
+        "pyarmor:tradehist": "pyarmor obfuscate --platform windows.x86_64 --platform windows.x86 --platform linux.x86_64 --platform linux.x86  --platform darwin.x86_64 --exact tradehist.py",
+        "pyarmor:tables": "shx cp table.py dist && shx cp tableSecondary.py dist",
+        "pyarmor:agentLogs": "pyarmor obfuscate --platform windows.x86_64 --platform windows.x86 --platform linux.x86_64 --platform linux.x86  --platform darwin.x86_64 --exact generateAgentLogs.py",
+        "package-scripts": "shx mkdir -p dist/logs && shx mkdir -p dist/dumps && shx cp run_mac.command dist/ && shx cp run_ubuntu.sh dist/ && shx cp run_windows.bat dist/ && shx cp requirements.txt dist/ ",
+        "package-files": "shx cp readme.md dist/readme.md && shx cp config.json dist/config.json && shx cp -R example-tables/ dist",
+        "package-bot": "shx mkdir -p artifacts && zip -r artifacts/genesis-bot-v$npm_package_botversion.zip dist/*"
+    },
+    "dependencies": {
+        "cross-var": "^1.1.0",
+        "shx": "^0.3.2"
+    }
+}
