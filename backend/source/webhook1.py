@@ -89,8 +89,9 @@ def positionAdjustment():
         adapter.closePosMarket(posInfo[0], "Sell")
     if posInfo[1] == "Sell":
         adapter.closePosMarket(posInfo[0], "Buy")
-    logger.info("Closing position " + str(posInfo[0]) + " on side " + str(posInfo[1]))
-    return print("Closing position " + str(posInfo[0]) + " on side " + str(posInfo[1]))
+    adapter.cancelAll()
+    logger.info("Closing position and open orders" + str(posInfo[0]) + " on side " + str(posInfo[1]))
+    return print("Closing position and open orders" + str(posInfo[0]) + " on side " + str(posInfo[1]))
 
 def changeLev(leverage):
     adapter.setLeverage(leverage)
@@ -181,7 +182,7 @@ def webhook():
                 logger.info("RECIEVED ALERT:" + str(data))
                 
                 # Echo the alert
-                echoAlert()
+                #echoAlert()
                 
                 # Fetch current side and use the logic for that side from the webhook
                 currentSide = adapter.fetchPosition()[1]
