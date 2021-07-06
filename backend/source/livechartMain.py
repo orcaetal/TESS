@@ -276,10 +276,17 @@ def displayClick(btn3, btn1, value, n):
                 state = pickle.load(handle)
             with open(f'../dumps/buttons.pickle', 'rb') as handle:
                 buttonDict = pickle.load(handle)
+            with open(f'../dumps/{value}/name.pickle', 'rb') as handle:
+                name = pickle.load(handle)
+                name = name.split('\\')[-1].rstrip('.csv')
             break
         except:
             #print('loading buttons')
             time.sleep(1)
+    
+    #grab list of sr and lm tables
+    specialTables = live.specialTables(config)
+    
     global oldValue
     style3 = None
     style1 = None
@@ -320,8 +327,10 @@ def displayClick(btn3, btn1, value, n):
     if buttonDict is not None:
         with open(f'../dumps/buttons.pickle', 'wb+') as handle:
             pickle.dump(buttonDict, handle)
-
-    if not state['executed']:
+    
+    if name in specialTables:
+        return buttonDict[value][0], buttonDict[value][1], True, True, False
+    elif not state['executed']:
         return buttonDict[value][0], buttonDict[value][1], True, True, True
     else:
         return buttonDict[value][0], buttonDict[value][1], False, False, False
@@ -355,6 +364,7 @@ def updateLiveGraph(n,value,showAll):
     elif float(candle['open_time']) > dataFrame['open_time'].iloc[-1]:
         dataFrame = dataFrame.append(candle)
         
+    
     agents = agentFrame(dumpsFolder, value)
     agents = agents['entry_id']
     positionFrame = equityFrame(dumpsFolder)

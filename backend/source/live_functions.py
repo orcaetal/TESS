@@ -589,6 +589,24 @@ def makeHttpRequest(endpoint, data):
 	response = requests.post(endpoint, data)
 	return response
 
+
+#return list of leverage manager or SR tables
+def specialTables(config):
+	listOfSpecialTables = []
+	if config['leverageManager']['aggressive_tablesSHORT'][0] not in ['NONE','None','none']:
+		for each in config['leverageManager']['aggressive_tablesSHORT']:
+			listOfSpecialTables.append(each)
+	if config['leverageManager']['aggressive_tablesLONG'][0] not in ['NONE','None','none']:
+		for each in config['leverageManager']['aggressive_tablesLONG']:
+			listOfSpecialTables.append(each)
+	if config['supportResistance']['support']['support_tables'][0] not in ['NONE','None','none']:
+		for each in config['supportResistance']['support']['support_tables']:
+			listOfSpecialTables.append(each)
+	if config['supportResistance']['resistance']['resistance_tables'][0] not in ['NONE','None','none']:
+		for each in config['supportResistance']['resistance']['resistance_tables']:
+			listOfSpecialTables.append(each)
+	return(listOfSpecialTables)
+			
 ##common json loader
 def loadJsonFile(filepath):
 	try:
@@ -596,6 +614,7 @@ def loadJsonFile(filepath):
 			return json.load(jsonData)
 	except Exception as e:
 		print('e',e)
+		
 ##common licensing loading
 def loadConfig():
 	while True:
