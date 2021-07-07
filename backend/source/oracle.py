@@ -219,11 +219,12 @@ def configureGatsClient():
                 
                 # Support and resistance
                 currentPrice = adapter.fetchPrice()
-                print('cp',currentPrice)
                 # Intake s/r level and return prices from tolerance*constant
                 def tolerance(variable, percent, constant):
-                    bump_up = variable * (1 + constant*percent)
-                    bump_down = variable * (1 - constant*percent) 
+                    print(variable,percent,constant)
+                    bump_up = variable - (variable * (constant*percent/100))
+                    bump_down = variable + (variable * (constant*percent/100))
+                    print({'bump_up':bump_up, 'bump_down': bump_down})
                     return {'bump_up':bump_up, 'bump_down': bump_down}
 
                 # If enabled in config,

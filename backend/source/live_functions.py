@@ -599,11 +599,17 @@ def specialTables(config):
 	if config['leverageManager']['aggressive_tablesLONG'][0] not in ['NONE','None','none']:
 		for each in config['leverageManager']['aggressive_tablesLONG']:
 			listOfSpecialTables.append(each)
-	if config['supportResistance']['support']['support_tables'][0] not in ['NONE','None','none']:
-		for each in config['supportResistance']['support']['support_tables']:
+	if config['supportResistance']['support']['support_breakout'][0] not in ['NONE','None','none']:
+		for each in config['supportResistance']['support']['support_breakout']:
 			listOfSpecialTables.append(each)
-	if config['supportResistance']['resistance']['resistance_tables'][0] not in ['NONE','None','none']:
-		for each in config['supportResistance']['resistance']['resistance_tables']:
+	if config['supportResistance']['resistance']['resistance_breakout'][0] not in ['NONE','None','none']:
+		for each in config['supportResistance']['resistance']['resistance_breakout']:
+			listOfSpecialTables.append(each)
+	if config['supportResistance']['support']['support_flip'][0] not in ['NONE','None','none']:
+		for each in config['supportResistance']['support']['support_flip']:
+			listOfSpecialTables.append(each)
+	if config['supportResistance']['resistance']['resistance_flip'][0] not in ['NONE','None','none']:
+		for each in config['supportResistance']['resistance']['resistance_flip']:
 			listOfSpecialTables.append(each)
 	return(listOfSpecialTables)
 			
