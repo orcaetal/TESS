@@ -47,10 +47,12 @@ delevTriggered = 0
 useSR = config['supportResistance']['useSR']
 tolerancePercent = config['supportResistance']['tolerance']
 
+touched_support = False
 supportLevel = config['supportResistance']['support']['support_price']
 support_breakout = config['supportResistance']['support']['support_breakout']
 support_flip = config['supportResistance']['support']['support_flip']
 
+touched_resistance = False
 resistanceLevel = config['supportResistance']['resistance']['resistance_price']
 resistance_breakout = config['supportResistance']['resistance']['resistance_breakout']
 resistance_flip = config['supportResistance']['resistance']['resistance_flip']
@@ -217,43 +219,48 @@ def configureGatsClient():
                 
                 # Support and resistance
                 currentPrice = adapter.fetchPrice()
+                print('cp',currentPrice)
                 # Intake s/r level and return prices from tolerance*constant
                 def tolerance(variable, percent, constant):
                     bump_up = variable * (1 + constant*percent)
                     bump_down = variable * (1 - constant*percent) 
-                    return bump_up, bump_down
+                    return {'bump_up':bump_up, 'bump_down': bump_down}
 
                 # If enabled in config,
                 if useSR == "True":
-                    touched_support = False
-                    touched_resistance = False
+                    global touched_support
+                    global touched_resistance
                     # Create an 'area' of support/resistance where we define as touched the support/resistance level
                     # For support, this would be any price less than support + tolerance or any price greater than support - tolerance
                     if currentPrice <= tolerance(supportLevel, tolerancePercent, 1)['bump_up'] or currentPrice >= tolerance(supportLevel, tolerancePercent, 1)['bump_down']:
                         touched_support = True
-                        print('Support level ' + supportLevel + ' has been touched')
+                        print('Support level ' + str(supportLevel) + ' has been touched')
                     # For resistance, this would be any price greater than resistance - tolerance or any price less than resistance + tolerance
                     if currentPrice <= tolerance(resistanceLevel, tolerancePercent, 1)['bump_down'] or currentPrice >= tolerance(resistanceLevel, tolerancePercent, 1)['bump_up']:
                         touched_resistance = True
-                        print('Resistance level ' + resistanceLevel + ' has been touched')
+                        print('Resistance level ' + str(resistanceLevel) + ' has been touched')
                     if touched_support == True:
                         # A breakout is defined as if the price is less than support level + 3 * tolerance after touching it
                         if currentPrice <= tolerance(supportLevel, tolerancePercent, 3)['bump_up']:
-                            print('Support level ' + supportLevel + ' has been broken')
-                            handle_tables(support_breakout)
+                            print('Support level ' + str(supportLevel) + ' has been broken')
+                            handle_tables(support_breakout,'run')
+                            touched_support = False
                         # A flip is defined as after touching the support level, if price is greater than support level + 3 * tolerance
                         if currentPrice >= tolerance(supportLevel, tolerancePercent, 3)['bump_down']:
-                            print('Support level ' + supportLevel + ' has been reversed')
-                            handle_tables(support_flip)
+                            print('Support level ' + str(supportLevel) + ' has been reversed')
+                            handle_tables(support_flip,'run')
+                            touched_support = False
                     if touched_resistance == True:
                         # A breakout is defined as if the price is greater than resistance level + 3 * tolerance after touching it
                         if currentPrice >= tolerance(resistanceLevel, tolerancePercent, 3)['bump_up']:
-                            print('Resistance level ' + resistanceLevel + ' has been broken')
-                            handle_tables(resistance_breakout)
+                            print('Resistance level ' + str(resistanceLevel) + ' has been broken')
+                            handle_tables(resistance_breakout,'run')
+                            touched_resistance = False
                         # A flip is defined as after touching the resistance level, if price is less than support level + 3 * tolerance
                         if currentPrice <= tolerance(resistanceLevel, tolerancePercent, 3)['bump_down']:
-                            print('Resistance level ' + resistanceLevel + ' has been reversed')
-                            handle_tables(resistance_flip)
+                            print('Resistance level ' + str(resistanceLevel) + ' has been reversed')
+                            handle_tables(resistance_flip,'run')
+                            touched_resistance = False
                 
                 # leverage manager
                 posInfo = adapter.fetchLeverage()
