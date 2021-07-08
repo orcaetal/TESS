@@ -233,21 +233,21 @@ def configureGatsClient():
                     global touched_resistance
                     # Create an 'area' of support/resistance where we define as touched the support/resistance level
                     # For support, this would be any price less than support + tolerance or any price greater than support - tolerance
-                    if currentPrice <= tolerance(supportLevel, tolerancePercent, 1)['bump_up'] or currentPrice >= tolerance(supportLevel, tolerancePercent, 1)['bump_down']:
+                    if currentPrice <= tolerance(supportLevel, tolerancePercent, 1)['bump_up'] and currentPrice >= tolerance(supportLevel, tolerancePercent, 1)['bump_down']:
                         touched_support = True
                         print('Support level ' + str(supportLevel) + ' has been touched')
                     # For resistance, this would be any price greater than resistance - tolerance or any price less than resistance + tolerance
-                    if currentPrice <= tolerance(resistanceLevel, tolerancePercent, 1)['bump_down'] or currentPrice >= tolerance(resistanceLevel, tolerancePercent, 1)['bump_up']:
+                    if currentPrice <= tolerance(resistanceLevel, tolerancePercent, 1)['bump_up'] and currentPrice >= tolerance(resistanceLevel, tolerancePercent, 1)['bump_down']:
                         touched_resistance = True
                         print('Resistance level ' + str(resistanceLevel) + ' has been touched')
                     if touched_support == True:
                         # A breakout is defined as if the price is less than support level + 3 * tolerance after touching it
-                        if currentPrice <= tolerance(supportLevel, tolerancePercent, 3)['bump_up']:
+                        if currentPrice <= tolerance(supportLevel, tolerancePercent, 3)['bump_down']:
                             print('Support level ' + str(supportLevel) + ' has been broken')
                             handle_tables(support_breakout,'run')
                             touched_support = False
                         # A flip is defined as after touching the support level, if price is greater than support level + 3 * tolerance
-                        if currentPrice >= tolerance(supportLevel, tolerancePercent, 3)['bump_down']:
+                        if currentPrice >= tolerance(supportLevel, tolerancePercent, 3)['bump_up']:
                             print('Support level ' + str(supportLevel) + ' has been reversed')
                             handle_tables(support_flip,'run')
                             touched_support = False
