@@ -71,6 +71,7 @@ class Bot(threading.Thread):
 		self.primaryCounter = 0
 		self.globalStarted = False
 		self.stopTradingTriggered = False
+		self.stopFinished = False
 		with open('../dumps/instance.pickle', 'rb') as handle:
 			instance = pickle.load(handle)
 		self.instance = instance
@@ -2066,7 +2067,12 @@ class Bot(threading.Thread):
 			if self.primary:
 				self.adapter.closePosMarket(curPos, curSide)
 			sys.exit()
-
+		
+		if self.running:
+			self.stopFinished = False
+		else:
+			self.stopFinished = True
+			
 	def _runLive(self):
 		while True:
 			if not self.running:
@@ -2142,6 +2148,8 @@ class Bot(threading.Thread):
 	# Bot stop
 	def stop(self):
 		self.running = False
+		while self.stopFinished == False:
+			time.sleep(0.1)
 		self.primary = False
 		self.logger.info("Shut down requested.")
 		time.sleep(3)
