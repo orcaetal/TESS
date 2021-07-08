@@ -222,8 +222,8 @@ def configureGatsClient():
                 # Intake s/r level and return prices from tolerance*constant
                 def tolerance(variable, percent, constant):
                     print(variable,percent,constant)
-                    bump_up = variable - (variable * (constant*percent/100))
-                    bump_down = variable + (variable * (constant*percent/100))
+                    bump_up = variable + (variable * (constant*percent/100))
+                    bump_down = variable - (variable * (constant*percent/100))
                     print({'bump_up':bump_up, 'bump_down': bump_down})
                     return {'bump_up':bump_up, 'bump_down': bump_down}
 
