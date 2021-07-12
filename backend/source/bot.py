@@ -71,6 +71,7 @@ class Bot(threading.Thread):
 		self.primaryCounter = 0
 		self.globalStarted = False
 		self.stopTradingTriggered = False
+		self.stopFinished = False
 		with open('../dumps/instance.pickle', 'rb') as handle:
 			instance = pickle.load(handle)
 		self.instance = instance
@@ -192,7 +193,7 @@ class Bot(threading.Thread):
 	# TODO revisit if this is actually needed (possibly needed for metric logging and upates to running bot information)
 	def connectOracle(self, callback):
 		self.sio = socketio.Client()
-
+		
 		@self.sio.event
 		def connect():
 			self.logger.info('Successfully connected to Oracle layer!')
@@ -202,22 +203,24 @@ class Bot(threading.Thread):
 
 		@self.sio.event
 		def connect_error(data):
+			print('connect error',data)
 			self.logger.error('Failed to connect to Oracle layer!')
 			self.logger.debug(data)
 			self.logger.info("Exiting in 30 seconds...")
-			time.sleep(30)
-			return False
-
-		try:
-			self.sio.connect('http://localhost:9999?connectionName=rsi')
-
-		except Exception as e:
-			print(e, 'from sioconnect')
-			self.logger.error(str(e) + '_____from sioconnectt')
-			self.logger.error(traceback.format_exc())
-			self.logger.info("Exiting in 30 seconds...")
-			time.sleep(30)
-			return False
+			#time.sleep(30)
+			#return False
+		
+		while True:
+			try:
+				self.sio.connect('http://localhost:9999?connectionName=rsi')
+	
+			except Exception as e:
+				print(e, 'from sioconnect')
+				self.logger.error(str(e) + '_____from sioconnectt')
+				self.logger.error(traceback.format_exc())
+				self.logger.info("Exiting in 30 seconds...")
+				#time.sleep(30)
+				#return False
 
 	# ----------------------------------------------------------------------------------------------------------------------
 
@@ -2066,7 +2069,12 @@ class Bot(threading.Thread):
 			if self.primary:
 				self.adapter.closePosMarket(curPos, curSide)
 			sys.exit()
-
+		
+		if self.running:
+			self.stopFinished = False
+		else:
+			self.stopFinished = True
+			
 	def _runLive(self):
 		while True:
 			if not self.running:
@@ -2123,6 +2131,7 @@ class Bot(threading.Thread):
 	# Bot start
 	# Thread start mandatory override
 	def start(self):
+		
 		self.paused = True
 		self.connectOracle(self.runCallback)
 
@@ -2142,6 +2151,8 @@ class Bot(threading.Thread):
 	# Bot stop
 	def stop(self):
 		self.running = False
+		while self.stopFinished == False:
+			time.sleep(0.1)
 		self.primary = False
 		self.logger.info("Shut down requested.")
 		time.sleep(3)

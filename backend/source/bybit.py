@@ -112,7 +112,7 @@ class Bybit(Adapter):
 	def subscribePosition(self):
 		return '{"op":"subscribe","args":["position"]}'
 	
-	def subNetwork(self, call, order, signedMessage):
+	def subNetwork(self, call, order, signedMessage=''):
 		connection = None
 		if self.network == 'mainnet':
 			connection = http.client.HTTPSConnection("api.bybit.com", 443, timeout=10)
@@ -153,7 +153,30 @@ class Bybit(Adapter):
 				time.sleep(1)
 				if fails > 2:
 					return
-
+				
+	def fetchCandle(self):
+		fails = 0
+		while True:
+			try:
+				#signature = hmac.new(self.private.encode(), message.encode(), digestmod=hashlib.sha256).hexdigest()
+				#signedMessage = message + "&sign=" + signature
+				timestamp = str(int(datetime.datetime.now().timestamp()) -60)
+				# connect and send request
+				connection = self.subNetwork('GET', "/v2/public/kline/list?from="+timestamp+"&interval=1&symbol="+self.asset.upper())#, signedMessage)
+				resDict = self.returnData(connection)
+				if resDict['ret_code'] != 0:
+					raise Exception(resDict)
+				elif len(resDict['result'])>0:
+					return resDict['result'][0]
+				else:
+					return
+			except Exception as e:
+				fails += 1
+				self.logger.error('failed public message' + str(e))
+				time.sleep(1)
+				if fails > 2:
+					return
+				
 	def sendOrder(self, message):
 		fails = 0
 		while True:

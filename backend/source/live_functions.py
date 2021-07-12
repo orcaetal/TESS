@@ -612,7 +612,26 @@ def specialTables(config):
 		for each in config['supportResistance']['resistance']['resistance_flip']:
 			listOfSpecialTables.append(each)
 	return(listOfSpecialTables)
-			
+
+def crossover(candle, res):
+    '''
+    
+    '''
+    if candle['close'] > res and candle['open'] < res:
+        return True
+    else:
+        return False
+
+
+def crossunder(candle):
+    '''
+    
+    '''
+    if candle['close'] < sup and candle['open'] > sup:
+        return True
+    else:
+        return False
+
 ##common json loader
 def loadJsonFile(filepath):
 	try:
