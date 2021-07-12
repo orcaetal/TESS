@@ -213,7 +213,7 @@ class Bot(threading.Thread):
 		while True:
 			try:
 				self.sio.connect('http://localhost:9999?connectionName=rsi')
-	
+				break
 			except Exception as e:
 				print(e, 'from sioconnect')
 				self.logger.error(str(e) + '_____from sioconnectt')
